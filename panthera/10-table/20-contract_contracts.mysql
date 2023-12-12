@@ -1,0 +1,4 @@
+CREATE TABLE `contract_contracts` (
+    `id` SERIAL,
+     KEY `index` (`id`)
+)  ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;

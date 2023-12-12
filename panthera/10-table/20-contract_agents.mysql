@@ -1,0 +1,7 @@
+CREATE TABLE `contract_agents` (
+    `id` SERIAL,
+    `name` VARCHAR(256),
+    `email` VARCHAR(256),
+    `phone` VARCHAR(256),
+     KEY `index` (`id`)
+)  ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;

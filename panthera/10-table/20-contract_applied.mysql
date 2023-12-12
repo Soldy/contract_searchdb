@@ -1,0 +1,8 @@
+CREATE TABLE `contract_applied` (
+    `id` SERIAL,
+    `site` BIGINT UNSIGNED NOT NULL,
+    `agent` BIGINT UNSIGNED NOT NULL,
+    `url` VARCHAR(256),
+    `title` VARCHAR(256),
+     KEY `index` (`id`)
+)  ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;

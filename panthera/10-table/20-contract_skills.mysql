@@ -1,0 +1,5 @@
+CREATE TABLE `contract_skills` (
+    `id` SERIAL,
+    `skill` VARCHAR(256),
+     KEY `index` (`id`)
+)  ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
